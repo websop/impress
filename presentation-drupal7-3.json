@@ -1,0 +1,181 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/mBszxYD.png",
+          "type": "Image",
+          "x": 56,
+          "y": 195,
+          "scale": {
+            "x": 0.4250000000000001,
+            "y": 0.3993023255813953,
+            "width": 170.00000000000003,
+            "height": 159.72093023255812
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/acCdW7a.png",
+          "type": "Image",
+          "x": 181,
+          "y": 278,
+          "scale": {
+            "x": 0.49183303085299457,
+            "y": 0.49183303085299457,
+            "width": 813,
+            "height": 274.44283121597095
+          },
+          "imageType": "PNG",
+          "selected": true
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": true,
+      "active": true,
+      "x": 180,
+      "y": 180,
+      "markdown": "# Entorno Drupal\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "## Antes de Construir un Sitio hay que definir...\n\n----\n----\n\n\n- #### ¿Qué tipos de contenido y campos vamos a necesitar? (Content types/Tipos de Contenido)\n\n- #### ¿Cómo se van a introducir los contenidos? (Forms/Formularios)\n\n- #### ¿Cómo se mostrarán los datos introducidos? (Views/Vistas)\n\n- #### ¿Quién puede crear/ver/borrar esos datos? (Permissions/Permisos)\n\n- #### ¿Añadir funcionalidades al \"Core\" (núcleo)? (Modules/Módulos)\n\n- #### ¿Como hacer todo de forma más agradable? (Theming/Maquetación)",
+      "x": 460,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "markdown": "# Tipos de Contenido"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "markdown": "# Formularios\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "markdown": "# Vistas\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "markdown": "# Permisos"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "markdown": "# Módulos\n"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "markdown": "# Maquetación"
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "src": "http://i.imgur.com/mBszxYD.png",
+        "type": "Image",
+        "x": 56,
+        "y": 195,
+        "scale": {
+          "x": 0.4250000000000001,
+          "y": 0.3993023255813953,
+          "width": 170.00000000000003,
+          "height": 159.72093023255812
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/acCdW7a.png",
+        "type": "Image",
+        "x": 181,
+        "y": 278,
+        "scale": {
+          "x": 0.49183303085299457,
+          "y": 0.49183303085299457,
+          "width": 813,
+          "height": 274.44283121597095
+        },
+        "imageType": "PNG",
+        "selected": true
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 0,
+    "selected": true,
+    "active": true,
+    "x": 180,
+    "y": 180,
+    "markdown": "# Entorno Drupal\n"
+  },
+  "fileName": "drupal7-presentacion-3",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  }
+}

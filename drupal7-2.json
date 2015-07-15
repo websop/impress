@@ -1,0 +1,30 @@
+{
+  "slides": [
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": true,
+      "active": true,
+      "markdown": "## Antes de Construir un Sitio hay que definir...\n- #### ¿Qué tipos de contenido y campos vamos a necesitar?\n- #### ¿Cómo se van a introducir los contenidos? (Forms)\n- #### ¿Cómo se mostrarán los datos introducidos? (Views)\n- #### ¿Quién puede crear/ver/borrar esos datos? (Permissions)\n- #### ¿FunciWhat additional functionality? (Modules)\n- #### How can we make it pretty? (Theming)\n"
+    }
+  ],
+  "background": "bg-default",
+  "activeSlide": {
+    "components": [],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 0,
+    "selected": true,
+    "active": true,
+    "markdown": "## Antes de Construir un Sitio hay que definir...\n- #### ¿Qué tipos de contenido y campos vamos a necesitar?\n- #### ¿Cómo se van a introducir los contenidos? (Forms)\n- #### ¿Cómo se mostrarán los datos introducidos? (Views)\n- #### ¿Quién puede crear/ver/borrar esos datos? (Permissions)\n- #### ¿FunciWhat additional functionality? (Modules)\n- #### How can we make it pretty? (Theming)\n"
+  },
+  "fileName": "drupal7-2"
+}

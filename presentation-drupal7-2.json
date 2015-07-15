@@ -1,0 +1,531 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 313,
+          "y": 484,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div align=\"center\"><font color=\"#fbfbfb\"><font color=\"#000000\">Drupal 7</font></font><br></div>",
+          "size": 115,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/lQcUjaP.png",
+          "type": "Image",
+          "x": 350,
+          "y": 85,
+          "scale": {
+            "x": 0.29491525423728815,
+            "y": 0.29491525423728815,
+            "width": 348,
+            "height": 398.135593220339
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 3,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 837,
+      "y": 412,
+      "markdown": "",
+      "background": "bg-default"
+    },
+    {
+      "components": [],
+      "z": 3,
+      "impScale": 3,
+      "rotateX": 0.78,
+      "rotateY": 0,
+      "rotateZ": -0.36,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "*Versión* | *Fecha de lanzamiento*\n------- | --------------------\n1.0     | 15 enero 2001\n2.0     | 15 marzo 2001\n3.0     | 15 Septiembre 2001\n4.0     | 16 Junio 2002\n5.0     | 15 Junio 2007\n6.0     | 13 febrero 2008\n7.0     | 5 junio 2011\n\n",
+      "x": 725,
+      "y": 409
+    },
+    {
+      "components": [],
+      "z": 3,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 977,
+      "y": 424,
+      "markdown": "# CMS\n\n(Content Management System)\n\n- Contenidos estructurados\n- Interface de administración\n  - Creación\n  - Modificación\n  - Eliminación\n  - Configuración\n- Diseño visual del contenido\n- Interface de búsqueda"
+    },
+    {
+      "components": [],
+      "z": 3,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 1120,
+      "y": 424,
+      "markdown": "# CMF\n\n(Content Management Framework)\n\n## CMS +\n\n- Modelado de datos\n- Gestión de flujo (hoocks)\n- Creación de gestores de contenidos\n- Empaquetamiento de aplicaciones web\n- Integración con aplicaciones"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 683,
+          "y": 307,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Lato', sans-serif\">Blogs</font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 569,
+          "y": 156,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">Noticias</font>",
+          "size": 96,
+          "selected": false,
+          "rotate": -0.01
+        },
+        {
+          "TextBox": {},
+          "x": 21,
+          "y": 388,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Documentación",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 239,
+          "y": 478,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Abril Fatface', cursive\">Portales</font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 88,
+          "y": 162,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Ubuntu', sans-serif\">Conocimiento</font>",
+          "size": 61,
+          "selected": false,
+          "rotate": -1.57
+        },
+        {
+          "TextBox": {},
+          "x": 347,
+          "y": 61,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Intranet",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 381,
+          "y": 463,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i><font face=\"'League Gothic', sans-serif\">Comercio electrónico</font></i><br>",
+          "size": 72,
+          "selected": false,
+          "rotate": 1.55
+        },
+        {
+          "src": "http://i.imgur.com/lQcUjaP.png",
+          "type": "Image",
+          "x": 359,
+          "y": 156,
+          "scale": {
+            "x": 0.14830508474576273,
+            "y": 0.14830508474576273,
+            "width": 175.00000000000003,
+            "height": 200.21186440677968
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": true,
+      "active": true,
+      "x": 1006,
+      "y": 596,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "src": "http://www.ox.ac.uk/",
+          "type": "WebFrame",
+          "x": 43,
+          "y": 1,
+          "scale": {
+            "x": 0.9730896062450698,
+            "y": 0.9730896062450698,
+            "width": 709.3823229526558,
+            "height": 567.3112404408757
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 900,
+      "y": 561
+    },
+    {
+      "components": [
+        {
+          "src": "http://commons.websop.es/",
+          "type": "WebFrame",
+          "x": 35,
+          "y": -1,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 1041,
+      "y": 505
+    },
+    {
+      "components": [
+        {
+          "src": "http://www.aljazeera.com/",
+          "type": "WebFrame",
+          "x": 46,
+          "y": 5,
+          "scale": {
+            "x": 0.9854166666666667,
+            "y": 0.9854166666666667,
+            "width": 946,
+            "height": 756.8000000000001
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 1133,
+      "y": 532
+    },
+    {
+      "components": [
+        {
+          "src": "http://es.blouinartinfo.com/",
+          "type": "WebFrame",
+          "x": 41,
+          "y": 5,
+          "scale": {
+            "x": 0.9791666666666666,
+            "y": 0.9791666666666666,
+            "width": 940,
+            "height": 752
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 1149,
+      "y": 607
+    },
+    {
+      "components": [
+        {
+          "src": "http://gemini-lights.com/",
+          "type": "WebFrame",
+          "x": 46,
+          "y": 8,
+          "scale": {
+            "x": 0.9753418127231419,
+            "y": 0.9753418127231419,
+            "width": 1001.6760416666667,
+            "height": 801.7309700584226
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 1079,
+      "y": 676
+    },
+    {
+      "components": [
+        {
+          "src": "https://www.whitehouse.gov/",
+          "type": "WebFrame",
+          "x": 51,
+          "y": 11,
+          "scale": {
+            "x": 0.9625,
+            "y": 0.9625,
+            "width": 924,
+            "height": 739.2
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 965,
+      "y": 675
+    },
+    {
+      "components": [
+        {
+          "src": "http://catalog.lib.kyushu-u.ac.jp/en/xc/search/*?filter[0]=&filter[1]=&filter[2]=&os[keys]=&os[title]=&os[auth]=&os[pub]=&os[fullTitle]=&os[isbn]=&os[localCollectionName]=&os[localCollectionNameCode]&os[schema]&os[coverageCode]&os[hasFormatCode]&os[acqu_date]=&os[callNumber]=&os[publicationName]=&os[thesisAdvisor]&os[degreeType]&os[reportNumber]&os[numberOfDiploma]&os[subject]=&os[format]=&os[locname]=&os[recordset]=&kyushu_production=0&exclude_research_room=0",
+          "type": "WebFrame",
+          "x": 62,
+          "y": 5,
+          "scale": {
+            "x": 0.9656250000000002,
+            "y": 0.9656250000000002,
+            "width": 927.0000000000002,
+            "height": 741.6000000000001
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "x": 868,
+      "y": 643
+    }
+  ],
+  "background": "bg-transparent",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 683,
+        "y": 307,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font face=\"'Lato', sans-serif\">Blogs</font>",
+        "size": 72,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 569,
+        "y": 156,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font face=\"'Hammersmith One', sans-serif\">Noticias</font>",
+        "size": 96,
+        "selected": false,
+        "rotate": -0.01
+      },
+      {
+        "TextBox": {},
+        "x": 21,
+        "y": 388,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "Documentación",
+        "size": 72,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 239,
+        "y": 478,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font face=\"'Abril Fatface', cursive\">Portales</font>",
+        "size": 72,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 88,
+        "y": 162,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font face=\"'Ubuntu', sans-serif\">Conocimiento</font>",
+        "size": 61,
+        "selected": false,
+        "rotate": -1.57
+      },
+      {
+        "TextBox": {},
+        "x": 347,
+        "y": 61,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "Intranet",
+        "size": 72,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 381,
+        "y": 463,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<i><font face=\"'League Gothic', sans-serif\">Comercio electrónico</font></i><br>",
+        "size": 72,
+        "selected": false,
+        "rotate": 1.55
+      },
+      {
+        "src": "http://i.imgur.com/lQcUjaP.png",
+        "type": "Image",
+        "x": 359,
+        "y": 156,
+        "scale": {
+          "x": 0.14830508474576273,
+          "y": 0.14830508474576273,
+          "width": 175.00000000000003,
+          "height": 200.21186440677968
+        },
+        "imageType": "PNG",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 4,
+    "selected": true,
+    "active": true,
+    "x": 1006,
+    "y": 596,
+    "markdown": ""
+  },
+  "fileName": "presentation-unnamed.strut",
+  "surface": "bg-default",
+  "customStylesheet": "/*.example {\n\tborder: 4px groove orange;\n}*/\n.strut-surface table, .strut-surface tr {\n  border: 2px solid grey;\n  margin-left: 10%;\n}\n.strut-surface td, .strut-surface th {\n  padding: 0.5em;\n  border: 5px solid grey;\n  background-color: white;\n}\n.strut-surface th {\n  color: white;\n  background-color: black;\n}",
+  "deckVersion": "1.0",
+  "cannedTransition": "cards",
+  "customBackgrounds": {
+    "bgs": []
+  }
+}

@@ -1,0 +1,237 @@
+﻿/* Make News Sticky */
+
+
+#header_container {
+background: #C60100;
+z-index: 999;
+min-height: 31px;
+position: relative;
+top: 0px;
+width: 100%;
+padding-top: 6px;
+}
+
+
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+
+padding-bottom: 5px;
+width: 100%;
+display: block;
+background-color: #C60100;
+font-size: 0.75em;
+  margin-right:auto;
+  margin-left:auto;
+/* max-width: 1200px; */
+/* margin-left: 5%; */
+}
+
+
+.ticker {
+display: block;
+overflow: hidden;
+position: relative;
+background-color: #C60100;
+max-width: 1200px;
+margin-left: 3.5%;
+margin-right: auto;
+margin-left: auto!important;
+}
+
+
+.ticker-title {
+padding-top: 2px;
+color: white;
+font-weight: bold;
+font-size: 16px;
+font-family: Arial;
+/* background-color: #C60100; */
+text-transform: uppercase;
+  margin-right:10px;
+}
+
+.ticker-content {
+margin: 0px;
+padding-top: 4px;
+
+color: white;
+/* font-weight: bold; */
+/* background-color: #C60100; */
+line-height: 1.2em;
+font-size: 16px;
+font-family: Arial;
+}
+
+
+.ticker-content:focus {
+	none;
+}
+.ticker-content a {
+	text-decoration: none;	
+	color: White;
+}
+.ticker-content a:hover {
+	text-decoration: none;	
+	color: White;
+}
+.ticker-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	background-color: #C60100;
+	display: block;
+	width: 800px;
+	height: 23px; 
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	background-color: #C60100;
+	border-bottom: 1px solid #1F527B;
+	height: 12px;
+	width: 7px;
+	display: block;
+}
+.ticker-controls {
+	padding-top: -10px;
+	list-style-type: none;
+	float: left;
+}
+.ticker-controls li {
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+.ticker-controls li.jnt-play-pause {
+	background-image: url('../images/controls.png');
+	background-position: 32px 16px;
+}
+.ticker-controls li.jnt-play-pause.over {
+	background-position: 32px 32px;
+}
+.ticker-controls li.jnt-play-pause.down {
+	background-position: 32px 0px;
+}
+.ticker-controls li.jnt-play-pause.paused {
+	background-image: url('../images/controls.png');	
+	background-position: 48px 16px;
+}
+.ticker-controls li.jnt-play-pause.paused.over {
+	background-position: 48px 32px;
+}
+.ticker-controls li.jnt-play-pause.paused.down {
+	background-position: 48px 0px;
+}
+.ticker-controls li.jnt-prev {
+	background-image: url('../images/controls.png');
+	background-position: 0px 16px;		
+}
+.ticker-controls li.jnt-prev.over {
+	background-position: 0px 32px;		
+}
+.ticker-controls li.jnt-prev.down {
+	background-position: 0px 0px;		
+}
+.ticker-controls li.jnt-next {
+	background-image: url('../images/controls.png');	
+	background-position: 16px 16px;	
+}
+.ticker-controls li.jnt-next.over {
+	background-position: 16px 32px;	
+}
+.ticker-controls li.jnt-next.down {	
+	background-position: 16px 0px;	
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 100px; 
+	color: White;
+}
+.left .ticker-swipe {
+	left: 80px;
+}
+
+.left { }
+
+.left .ticker-controls, .left .ticker-content, .left .ticker-title {
+    float: left;
+}
+.left .ticker-controls {
+    padding-left: 6px;
+    margin-top:8px;
+}
+.right .ticker-swipe {
+	/*right: 80px;*/
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}
+.right .ticker-controls {
+    padding-right: 6px;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1200px) {
+
+  .ticker {
+ margin-left: 1.5%;
+}
+
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1350px){
+
+  .ticker-wrapper.has-js {
+  width:90%!important;
+ 
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+  
+  #header_container {
+
+z-index: 1001;
+
+}
+
+  .ticker {
+ margin-left: -0.5%;
+  width:	96%;
+}
+
+#header_container {
+margin-bottom: 0px;
+}
+
+
+  .ticker-content{
+  padding-left:0px!important;
+  }
+
+
+}
+
+
+
+
+
+

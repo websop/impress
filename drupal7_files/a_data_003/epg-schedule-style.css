@@ -1,0 +1,63 @@
+﻿.box-content{position:relative;*zoom:1}
+.box-content:before,.box-content:after{display:table;content:"";line-height:0}
+.box-content:after{clear:both}
+
+.broadcastSchedule ul,.broadcastSchedule ol{padding:0;margin:0 0 9px 25px}
+.broadcastSchedule ul ul{margin-bottom:0}
+.broadcastSchedule li{line-height:18px}
+.broadcastSchedule ul.unstyled{margin-left:0;list-style:none}
+
+.broadcastSchedule-box{margin-bottom:1.667em;padding:.43675em 1.667em 0;background:#fff;color:#fff; border:2px solid #dddddd; border-top: 3px solid #fa9000; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.broadcastSchedule-header .heading{float:left;margin-top:0;font-size:20px}
+.broadcastSchedule-header .view-all{float:right;line-height:36px;font-weight:bold}
+.broadcastSchedule-week-wrapper{display:table;border-collapse:collapse;width:100%;margin-bottom:1.667em}
+.broadcastSchedule-week{margin:0;display:table-row}
+.broadcastSchedule-week .day{display:table-cell;width:14.2857142857%;border-left:3px solid #fff}
+.broadcastSchedule-week .day:first-child{border-left:none}
+.broadcastSchedule-week .anchor{display:block;padding:.8335em 0;background:#ebebeb;text-align:center;text-transform:uppercase;font-size:22px;font-weight:900;color:#000;text-decoration:none!important}
+.broadcastSchedule-week .date{display:block;margin-top:.41675em;font-size:15px;font-weight:normal;text-transform:none}
+.broadcastSchedule-week .active{background:#fa9000;color:#fff;position:relative;z-index:0}
+.broadcastSchedule-week .active:after{content:"";border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #fa9000;position:absolute;bottom:0;margin:0 0 -5px -5px;left:50%;z-index:1}
+.broadcastSchedule-schedule{margin:0;-ms-overflow-style:-ms-autohiding-scrollbar;color:#fff}
+.broadcastSchedule-show{*zoom:1;border-top:1px solid #afafaf;padding:0.8em 0}
+.broadcastSchedule-show:before,.broadcastSchedule-show:after{display:table;content:"";line-height:0}
+.broadcastSchedule-show:after{clear:both}
+.broadcastSchedule-show:first-child{padding-top:0;border-top:0}
+.broadcastSchedule-show .show-left,.broadcastSchedule-show .show-right{float:left}
+.broadcastSchedule-show .show-left{width:14.2857142857%}
+.broadcastSchedule-show .show-right{width:70%}
+.broadcastSchedule-show .show-time{font-size:17px; color:black;}
+.broadcastSchedule-show .show-title{margin:0 0 .41675em;line-height:18px;font-size:17px;text-transform:uppercase;color:#fa9000; text-decoration:none;}
+.broadcastSchedule-show .show-title a{color:inherit; }
+.broadcastSchedule-show .show-title a:hover,.broadcastSchedule-show .show-title a:focus{color:#606060}
+.broadcastSchedule-show .show-description{margin:0;font-size:14px; color:#474957;}
+@media(max-width:767px){.globalHeader .header-search-input:-ms-input-placeholder{color:#fff}
+.globalHeader .header-search-input::-webkit-input-placeholder{color:#fff}
+.broadcastSchedule-box{margin:0;padding:0}
+.broadcastSchedule-week-wrapper{display:block;border-collapse:separate;width:auto;margin-bottom:0}
+.broadcastSchedule-week{display:block;margin-bottom:1.667em}
+.broadcastSchedule-week .day{display:block;width:100%;border-top:3px solid #323232;border-left:none;color:#000}
+.broadcastSchedule-week .day:first-child{border-top:0}
+.broadcastSchedule-week .active{margin-bottom:1.667em}
+.broadcastSchedule-schedule{height:auto;overflow-y:visible;-ms-overflow-style:scrollbar}
+.broadcastSchedule-show .show-left{width:20%}
+.broadcastSchedule-show .show-right{width:60%}
+}
+@media(max-width:480px){-480{display:none}
+.broadcastSchedule-show .show-left{width:20%}
+.broadcastSchedule-show .show-right{width:60%}
+.broadcastSchedule-show .show-time{font-size:14px}
+.broadcastSchedule-show .show-title{font-size:14px}
+.broadcastSchedule-show .show-description{font-size:12px}
+}
+
+@media(min-width:1025px) and (min-height:768px){}
+@-ms-viewport{width:device-width}
+.hidden-desktop{display:none!important}
+@media(min-width:768px) and (max-width:959px){.hidden-desktop{display:inherit!important}
+.hidden-tablet{display:none!important}
+}
+@media(max-width:767px){.hidden-desktop{display:inherit!important}
+.hidden-phone{display:none!important}
+}
+

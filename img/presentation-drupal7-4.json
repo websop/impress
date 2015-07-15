@@ -1,0 +1,599 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/nkWNSLA.png",
+          "type": "Image",
+          "x": 20,
+          "y": 329,
+          "scale": {
+            "x": 0.5626134301270418,
+            "y": 0.5626134301270418,
+            "width": 930.0000000000001,
+            "height": 313.9382940108893
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/4oW5z3i.png",
+          "type": "Image",
+          "x": 5,
+          "y": 232,
+          "scale": {
+            "x": 0.775,
+            "y": 0.775,
+            "width": 217,
+            "height": 209.25
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/jMQvBBB.png",
+          "type": "Image",
+          "x": 49,
+          "y": 607,
+          "scale": {
+            "x": 0.7261410788381745,
+            "y": 0.7261410788381745,
+            "width": 175.00000000000006,
+            "height": 88.58921161825728
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/885YaKU.png",
+          "type": "Image",
+          "x": 299,
+          "y": 246,
+          "scale": {
+            "x": 0.306640625,
+            "y": 0.306640625,
+            "width": 157,
+            "height": 157
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/Nq6UWFG.png",
+          "type": "Image",
+          "x": 597,
+          "y": 228,
+          "scale": {
+            "x": 0.49700000000000005,
+            "y": 0.49700000000000005,
+            "width": 497.00000000000006,
+            "height": 248.50000000000003
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/6qXj1qu.png",
+          "type": "Image",
+          "x": 482,
+          "y": 609,
+          "scale": {
+            "x": 0.8607142857142858,
+            "y": 0.8607142857142858,
+            "width": 482,
+            "height": 148.04285714285714
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 180,
+      "y": 180,
+      "markdown": "# Entorno Drupal\n"
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/0nwtZ3S.png",
+          "type": "Image",
+          "x": 508,
+          "y": 267,
+          "scale": {
+            "x": 0.25398936170212777,
+            "y": 0.25398936170212777,
+            "width": 382.00000000000017,
+            "height": 193.53989361702136
+          },
+          "imageType": "PNG",
+          "selected": true
+        },
+        {
+          "TextBox": {},
+          "x": 419,
+          "y": 261,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\">Content types</div><div style=\"text-align: center;\">Tipos de Contenido</div>",
+          "size": 20,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 252,
+          "y": 203,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "¿Qué tipos de contenido y campos vamos a necesitar?<br>",
+          "size": 24,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/d9O1SI6.png",
+          "type": "Image",
+          "x": 391,
+          "y": 250,
+          "scale": {
+            "x": 0.2547914317925592,
+            "y": 0.2547914317925592,
+            "width": 226,
+            "height": 73.12514092446449
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 712,
+          "y": 399,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\">Forms</div><font><div style=\"text-align: center;\">Formularios</div></font>",
+          "size": 20,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 372,
+          "y": 396,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\">Forms</div><font><div style=\"text-align: center;\">Formularios</div></font>",
+          "size": 20,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 667,
+          "y": 594,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\">Views</div><div style=\"text-align: center;\">Vistas</div>",
+          "size": 20,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/d9O1SI6.png",
+          "type": "Image",
+          "x": 577,
+          "y": 583,
+          "scale": {
+            "x": 0.2547914317925592,
+            "y": 0.2547914317925592,
+            "width": 226,
+            "height": 73.12514092446449
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/d9O1SI6.png",
+          "type": "Image",
+          "x": 276,
+          "y": 552,
+          "scale": {
+            "x": 0.2547914317925592,
+            "y": 0.2547914317925592,
+            "width": 226,
+            "height": 73.12514092446449
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/d9O1SI6.png",
+          "type": "Image",
+          "x": 144,
+          "y": 360,
+          "scale": {
+            "x": 0.2547914317925592,
+            "y": 0.2547914317925592,
+            "width": 226,
+            "height": 73.12514092446449
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/W37JTxg.png",
+          "type": "Image",
+          "x": 216,
+          "y": 296,
+          "scale": {
+            "x": 0.4093457943925234,
+            "y": 0.4093457943925234,
+            "width": 219,
+            "height": 128.53457943925235
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -1.18
+        },
+        {
+          "src": "http://i.imgur.com/W37JTxg.png",
+          "type": "Image",
+          "x": 611,
+          "y": 424,
+          "scale": {
+            "x": 0.39626168224299063,
+            "y": 0.39626168224299063,
+            "width": 212,
+            "height": 124.42616822429906
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 1.43
+        },
+        {
+          "src": "http://i.imgur.com/W37JTxg.png",
+          "type": "Image",
+          "x": 442,
+          "y": 602,
+          "scale": {
+            "x": 0.39626168224299063,
+            "y": 0.39626168224299063,
+            "width": 212,
+            "height": 124.42616822429906
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 2.51
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": true,
+      "active": true,
+      "markdown": "## Antes de Construir un Sitio hay que definir...\n\n----",
+      "x": 460,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "markdown": "## Antes de Construir un Sitio hay que definir...\n\n----\n----\n\n\n- #### ¿Qué tipos de contenido y campos vamos a necesitar? (Content types/Tipos de Contenido)\n\n- #### ¿Cómo se van a introducir los contenidos? (Forms/Formularios)\n\n- #### ¿Cómo se mostrarán los datos introducidos? (Views/Vistas)\n\n- #### ¿Quién puede crear/ver/borrar esos datos? (Permissions/Permisos)\n\n- #### ¿Añadir funcionalidades al \"Core\" (núcleo)? (Modules/Módulos)\n\n- #### ¿Como hacer todo de forma más agradable? (Theming/Maquetación)",
+      "x": 460,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "markdown": "# Tipos de Contenido",
+      "x": 740,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "markdown": "# Formularios\n",
+      "x": 1020,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "markdown": "# Vistas\n",
+      "x": 1300,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "markdown": "# Permisos",
+      "x": 1580,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "markdown": "# Módulos\n",
+      "x": 1860,
+      "y": 460
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "markdown": "# Maquetación",
+      "x": 2140,
+      "y": 460
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "src": "http://i.imgur.com/0nwtZ3S.png",
+        "type": "Image",
+        "x": 508,
+        "y": 267,
+        "scale": {
+          "x": 0.25398936170212777,
+          "y": 0.25398936170212777,
+          "width": 382.00000000000017,
+          "height": 193.53989361702136
+        },
+        "imageType": "PNG",
+        "selected": true
+      },
+      {
+        "TextBox": {},
+        "x": 419,
+        "y": 261,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\">Content types</div><div style=\"text-align: center;\">Tipos de Contenido</div>",
+        "size": 20,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 252,
+        "y": 203,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "¿Qué tipos de contenido y campos vamos a necesitar?<br>",
+        "size": 24,
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/d9O1SI6.png",
+        "type": "Image",
+        "x": 391,
+        "y": 250,
+        "scale": {
+          "x": 0.2547914317925592,
+          "y": 0.2547914317925592,
+          "width": 226,
+          "height": 73.12514092446449
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 712,
+        "y": 399,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\">Forms</div><font><div style=\"text-align: center;\">Formularios</div></font>",
+        "size": 20,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 372,
+        "y": 396,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\">Forms</div><font><div style=\"text-align: center;\">Formularios</div></font>",
+        "size": 20,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 667,
+        "y": 594,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\">Views</div><div style=\"text-align: center;\">Vistas</div>",
+        "size": 20,
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/d9O1SI6.png",
+        "type": "Image",
+        "x": 577,
+        "y": 583,
+        "scale": {
+          "x": 0.2547914317925592,
+          "y": 0.2547914317925592,
+          "width": 226,
+          "height": 73.12514092446449
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/d9O1SI6.png",
+        "type": "Image",
+        "x": 276,
+        "y": 552,
+        "scale": {
+          "x": 0.2547914317925592,
+          "y": 0.2547914317925592,
+          "width": 226,
+          "height": 73.12514092446449
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/d9O1SI6.png",
+        "type": "Image",
+        "x": 144,
+        "y": 360,
+        "scale": {
+          "x": 0.2547914317925592,
+          "y": 0.2547914317925592,
+          "width": 226,
+          "height": 73.12514092446449
+        },
+        "imageType": "PNG",
+        "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/W37JTxg.png",
+        "type": "Image",
+        "x": 216,
+        "y": 296,
+        "scale": {
+          "x": 0.4093457943925234,
+          "y": 0.4093457943925234,
+          "width": 219,
+          "height": 128.53457943925235
+        },
+        "imageType": "PNG",
+        "selected": false,
+        "rotate": -1.18
+      },
+      {
+        "src": "http://i.imgur.com/W37JTxg.png",
+        "type": "Image",
+        "x": 611,
+        "y": 424,
+        "scale": {
+          "x": 0.39626168224299063,
+          "y": 0.39626168224299063,
+          "width": 212,
+          "height": 124.42616822429906
+        },
+        "imageType": "PNG",
+        "selected": false,
+        "rotate": 1.43
+      },
+      {
+        "src": "http://i.imgur.com/W37JTxg.png",
+        "type": "Image",
+        "x": 442,
+        "y": 602,
+        "scale": {
+          "x": 0.39626168224299063,
+          "y": 0.39626168224299063,
+          "width": 212,
+          "height": 124.42616822429906
+        },
+        "imageType": "PNG",
+        "selected": false,
+        "rotate": 2.51
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 1,
+    "selected": true,
+    "active": true,
+    "markdown": "## Antes de Construir un Sitio hay que definir...\n\n----",
+    "x": 460,
+    "y": 180
+  },
+  "fileName": "drupal7-2",
+  "surface": "bg-default",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 1160,
+  "overviewY": 320
+}
