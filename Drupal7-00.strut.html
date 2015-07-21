@@ -1,37 +1,44 @@
-<html style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="es" style="height: 100%;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>websop presenta Drupal 7</title>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<title>websop presenta Drupal7</title>
-	<meta name="description" content="TODO">
-	<meta name="author" content="TODO">
+<meta name="description" content="TODO">
+<meta name="author" content="TODO">
 
-	<style>
-	.componentContainer {
-			position: absolute;
-			line-height: normal;
-			/*-webkit-transform-origin: 135% 135%;
-			-moz-transform-origin: 135% 135%;
-			transform-origin: 135% 135%;*/
-	}
+<style>
+.componentContainer {
+		position: absolute;
+		line-height: normal;
+		/*-webkit-transform-origin: 135% 135%;
+		-moz-transform-origin: 135% 135%;
+		transform-origin: 135% 135%;*/
+}
 
-	.transformContainer {
-			-webkit-transform-origin: 0 0;
-			-moz-transform-origin: 0 0;
-			transform-origin: 0 0;
-	}
+.transformContainer {
+		-webkit-transform-origin: 0 0;
+		-moz-transform-origin: 0 0;
+		transform-origin: 0 0;
+}
 
-	.bg {
-			width: 100%;
-			height: 100%;
-	}
-	</style>
-<link href="./Drupal7-00.strut_files/css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="http://strut.io/editor/preview_export/css/themes/default-reset.css">
+.bg {
+		width: 100%;
+		height: 100%;
+}
+</style>
+
+<!--<link rel="stylesheet" href="http://strut.io/editor/preview_export/css/themes/default-reset.css">-->
 <link href="./Drupal7-00.strut_files/main.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="http://strut.io/editor/preview_export/reveal/css/theme/default.css" id="theme">
 <link href="./Drupal7-00.strut_files/web-fonts.css" rel="stylesheet" type="text/css">
+
+<!--google fonts-->
+<link href='http://fonts.googleapis.com/css?family=Lato|Ubuntu|Droid+Sans+Mono|Fredoka+One|Hammersmith+One|Gorditas|Abril+Fatface' rel='stylesheet' type='text/css'>
+
 <link href="./Drupal7-00.strut_files/backgroundClasses.css" rel="stylesheet" type="text/css">
 <link href="./Drupal7-00.strut_files/surfaceClasses.css" rel="stylesheet" type="text/css">
 
@@ -50,7 +57,7 @@
 }
 </style>
 
-<script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="./Drupal7-00.strut_files/dataset-shim.js"></script>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="./Drupal7-00.strut_files/dataset-shim.js"></script>
 <script type="text/javascript" src="./Drupal7-00.strut_files/impress.js"></script>
 
 <script src="./Drupal7-00.strut_files/onready.js"></script>
@@ -80,58 +87,56 @@ ready(function() {
 		ga('create', 'UA-42322531-1', 'strut.io');
 		ga('send', 'pageview');
 		</script>
-<!--
-	<style id="style-1-cropbar-clipper">
-		.en-markup-crop-options {
-				top: 18px !important;
-				left: 50% !important;
-				margin-left: -100px !important;
-				width: 200px !important;
-				border: 2px rgba(255,255,255,.38) solid !important;
-				border-radius: 4px !important;
-		}
+<!--<style id="style-1-cropbar-clipper">
+.en-markup-crop-options {
+		top: 18px !important;
+		left: 50% !important;
+		margin-left: -100px !important;
+		width: 200px !important;
+		border: 2px rgba(255,255,255,.38) solid !important;
+		border-radius: 4px !important;
+}
 
-		.en-markup-crop-options div div:first-of-type {
-				margin-left: 0px !important;
-		}
-	</style>
--->
+.en-markup-crop-options div div:first-of-type {
+		margin-left: 0px !important;
+}
+</style>-->
 </head>
 <body class="impress-supported impress-enabled" cz-shortcut-listen="true" style="height: 100%; overflow: hidden;">
+<!-- logo websop -->
+	<a href="http://formacion.websop.es/"><img src="./img/logo-websop-formacion.png" alt="logo websop formación" style="bottom:10px; position:fixed; right:10px; width:7%; z-index:100;"></a>
 
-	<a href="http://formacion.websop.es/"><img src="./Drupal7-00.strut_files/logo-websop-formacion.png" alt="logo websop formación" style="bottom:10px; position:fixed; right:10px; width:7%; z-index:100;"></a>
 	<style type="text/css">
+.strut-surface table, .strut-surface tr {
+	border: 2px solid grey;
+	margin-left: 10%;
+}
+.strut-surface td, .strut-surface th {
+	padding: 0.5em;
+	border: 5px solid white;
+	background-color: none;
+}
+.strut-surface th {
+	color: grey;
+	background-color: white;
+}
+</style>
 
-	.strut-surface table, .strut-surface tr {
-		border: 2px solid grey;
-		margin-left: 10%;
-	}
-	.strut-surface td, .strut-surface th {
-		padding: 0.5em;
-		border: 5px solid white;
-		background-color: none;
-	}
-	.strut-surface th {
-		color: grey;
-		background-color: white;
-	}
-	</style>
 <!-- This is a work around / hack to get the user's browser to download the fonts
- if they decide to save the presentation.
-	<div style="visibility: hidden; width: 0px; height: 0px">
-	<img src="./Deck Title_files/Lato-Bold.woff">
-	<img src="./Deck Title_files/HammersmithOne.woff">
-	<img src="./Deck Title_files/Droid-Sans-Mono.woff">
-	<img src="./Deck Title_files/Gorditas-Regular.woff">
-	<img src="./Deck Title_files/FredokaOne-Regular.woff">
-	<img src="./Deck Title_files/Ubuntu.woff">
-	<img src="./Deck Title_files/Ubuntu-Bold.woff">
-	<img src="./Deck Title_files/PressStart2P-Regular.woff">
-	<img src="./Deck Title_files/Lato-BoldItalic.woff">
-	<img src="./Deck Title_files/AbrilFatface-Regular.woff">
-	<img src="./Deck Title_files/Lato-Regular.woff">
-	</div>
--->
+ if they decide to save the presentation. -->
+<!--<div style="visibility: hidden; width: 0px; height: 0px">
+<img src="./Drupal7-00.strut_files/Lato-Bold.woff">
+<img src="./Drupal7-00.strut_files/HammersmithOne.woff">
+<img src="./Drupal7-00.strut_files/Droid-Sans-Mono.woff">
+<img src="./Drupal7-00.strut_files/Gorditas-Regular.woff">
+<img src="./Drupal7-00.strut_files/FredokaOne-Regular.woff">
+<img src="./Drupal7-00.strut_files/Ubuntu.woff">
+<img src="./Drupal7-00.strut_files/Ubuntu-Bold.woff">
+<img src="./Drupal7-00.strut_files/PressStart2P-Regular.woff">
+<img src="./Drupal7-00.strut_files/Lato-BoldItalic.woff">
+<img src="./Drupal7-00.strut_files/AbrilFatface-Regular.woff">
+<img src="./Drupal7-00.strut_files/Lato-Regular.woff">
+</div>-->
 
 <div class="fallback-message">
 		<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
@@ -139,11 +144,11 @@ ready(function() {
 </div>
 
 <div class="bg bg-default strut-surface">
-<div class="bg innerBg strut-slide-0">
-<div id="impress" style="position: absolute; transform-origin: left top 0px; -webkit-transition: all 500ms ease-in-out 250ms; transition: all 500ms ease-in-out 250ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3182.32044198895px) scale(0.314236111111111);"><div style="position: absolute; transform-origin: left top 0px; -webkit-transition: all 500ms ease-in-out 0ms; transition: all 500ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-11427.84px, -6328.32px, -3px);">
+<div class="bg innerBg strut-slide-2">
+<div id="impress" style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 500ms; -webkit-transition: all 1000ms ease-in-out 500ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3000px) scale(0.333333333333333);"><div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 0ms; -webkit-transition: all 1000ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-7004.16px, -3025.92px, -3px);">
 
 
-			<div class="step present active" data-state="strut-slide-0" data-x="11427.84" data-y="6328.32" data-z="3" data-scale="3" id="step-1" style="position: absolute; transform: translate(-50%, -50%) translate3d(11427.84px, 6328.32px, 3px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="step past" data-state="strut-slide-0" data-x="4287.1466666666665" data-y="2795.52" data-z="3" data-scale="3" id="step-1" style="position: absolute; transform: translate(-50%, -50%) translate3d(4287.14666666667px, 2795.52px, 3px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-0" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -172,7 +177,7 @@ transform: scale(0.29, 0.29)">
 		</div>
 
 
-			<div class="step past future" data-state="strut-slide-1" data-x="10622.293333333333" data-y="5821.44" data-rotate-x="0.5729577951308232" data-rotate-z="-0.5729577951308232" data-z="2" data-scale="1" id="step-2" style="position: absolute; transform: translate(-50%, -50%) translate3d(10622.2933333333px, 5821.44px, 2px) rotateX(0.572957795130823deg) rotateY(0deg) rotateZ(-0.572957795130823deg) scale(1); transform-style: preserve-3d;">
+			<div class="step past" data-state="strut-slide-1" data-x="3153.92" data-y="2657.28" data-rotate-x="0.5729577951308232" data-rotate-z="-0.5729577951308232" data-z="2" data-scale="1" id="step-2" style="position: absolute; transform: translate(-50%, -50%) translate3d(3153.92px, 2657.28px, 2px) rotateX(0.572957795130823deg) rotateY(0deg) rotateZ(-0.572957795130823deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-1" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 			<table>
@@ -221,7 +226,7 @@ transform: scale(0.29, 0.29)">
 		</div>
 
 
-			<div class="step past" data-state="strut-slide-2" data-x="13339.306666666667" data-y="6512.64" data-z="3" data-scale="3" id="step-3" style="position: absolute; transform: translate(-50%, -50%) translate3d(13339.3066666667px, 6512.64px, 3px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="step active present" data-state="strut-slide-2" data-x="7004.16" data-y="3025.92" data-z="3" data-scale="3" id="step-3" style="position: absolute; transform: translate(-50%, -50%) translate3d(7004.16px, 3025.92px, 3px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-2" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 			<h1 id="cms">CMS</h1>
@@ -246,7 +251,7 @@ transform: scale(0.29, 0.29)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-3" data-x="15291.733333333334" data-y="6512.64" data-z="3" data-scale="3" id="step-4" style="position: absolute; transform: translate(-50%, -50%) translate3d(15291.7333333333px, 6512.64px, 3px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-3" data-x="8956.586666666666" data-y="3025.92" data-z="3" data-scale="3" id="step-4" style="position: absolute; transform: translate(-50%, -50%) translate3d(8956.58666666667px, 3025.92px, 3px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-3" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 			<h1 id="cmf">CMF</h1>
@@ -254,7 +259,7 @@ transform: scale(0.29, 0.29)">
 <h2 id="cms-">CMS +</h2>
 <ul>
 <li>Modelado de datos</li>
-<li>Gestión de flujo (hooks)</li>
+<li>Gestión de flujo (hoocks)</li>
 <li>Creación de gestores de contenidos</li>
 <li>Empaquetamiento de aplicaciones web</li>
 <li>Integración con aplicaciones</li>
@@ -267,7 +272,7 @@ transform: scale(0.29, 0.29)">
 		</div>
 
 
-			<div class="step past future" data-state="strut-slide-4" data-x="13735.253333333334" data-y="9154.56" data-scale="3" id="step-5" style="position: absolute; transform: translate(-50%, -50%) translate3d(13735.2533333333px, 9154.56px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-4" data-x="7400.106666666667" data-y="5667.84" data-scale="3" id="step-5" style="position: absolute; transform: translate(-50%, -50%) translate3d(7400.10666666667px, 5667.84px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-4" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -356,7 +361,7 @@ transform: scale(0.15, 0.15)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-5" data-x="12588.373333333333" data-y="8616.96" data-scale="1" id="step-6" style="position: absolute; transform: translate(-50%, -50%) translate3d(12588.3733333333px, 8616.96px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-5" data-x="6253.2266666666665" data-y="5130.24" data-scale="1" id="step-6" style="position: absolute; transform: translate(-50%, -50%) translate3d(6253.22666666667px, 5130.24px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -385,7 +390,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-6" data-x="13776.213333333333" data-y="7956.48" data-scale="1" id="step-7" style="position: absolute; transform: translate(-50%, -50%) translate3d(13776.2133333333px, 7956.48px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-6" data-x="7441.066666666667" data-y="4469.76" data-scale="1" id="step-7" style="position: absolute; transform: translate(-50%, -50%) translate3d(7441.06666666667px, 4469.76px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-6" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -414,7 +419,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-7" data-x="14417.92" data-y="8279.04" data-scale="1" id="step-8" style="position: absolute; transform: translate(-50%, -50%) translate3d(14417.92px, 8279.04px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step past" data-state="strut-slide-7" data-x="8082.7733333333335" data-y="4792.32" data-scale="1" id="step-8" style="position: absolute; transform: translate(-50%, -50%) translate3d(8082.77333333333px, 4792.32px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-7" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -443,7 +448,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-8" data-x="14759.253333333334" data-y="9354.24" data-scale="1" id="step-9" style="position: absolute; transform: translate(-50%, -50%) translate3d(14759.2533333333px, 9354.24px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-8" data-x="8424.106666666667" data-y="5867.52" data-scale="1" id="step-9" style="position: absolute; transform: translate(-50%, -50%) translate3d(8424.10666666667px, 5867.52px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-8" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -472,7 +477,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-9" data-x="14431.573333333334" data-y="10137.6" data-scale="1" id="step-10" style="position: absolute; transform: translate(-50%, -50%) translate3d(14431.5733333333px, 10137.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-9" data-x="8096.426666666666" data-y="6650.88" data-scale="1" id="step-10" style="position: absolute; transform: translate(-50%, -50%) translate3d(8096.42666666667px, 6650.88px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-9" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -501,7 +506,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-10" data-x="13352.96" data-y="9922.56" data-scale="1" id="step-11" style="position: absolute; transform: translate(-50%, -50%) translate3d(13352.96px, 9922.56px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-10" data-x="7017.8133333333335" data-y="6435.84" data-scale="1" id="step-11" style="position: absolute; transform: translate(-50%, -50%) translate3d(7017.81333333333px, 6435.84px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-10" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -530,7 +535,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step future" data-state="strut-slide-11" data-x="12328.96" data-y="9615.36" data-scale="1" id="step-12" style="position: absolute; transform: translate(-50%, -50%) translate3d(12328.96px, 9615.36px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-11" data-x="5993.8133333333335" data-y="6128.64" data-scale="1" id="step-12" style="position: absolute; transform: translate(-50%, -50%) translate3d(5993.81333333333px, 6128.64px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-11" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -559,7 +564,7 @@ transform: scale(1, 1)">
 		</div>
 
 
-			<div class="step past future" data-state="strut-slide-12" data-x="10949.973333333333" data-y="8048.64" data-scale="2" id="step-13" style="position: absolute; transform: translate(-50%, -50%) translate3d(10949.9733333333px, 8048.64px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(2); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-12" data-x="4614.826666666667" data-y="4561.92" data-scale="2" id="step-13" style="position: absolute; transform: translate(-50%, -50%) translate3d(4614.82666666667px, 4561.92px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(2); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-12" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 
@@ -578,7 +583,7 @@ transform: scale(0.53, 0.53)">
 		</div>
 
 
-			<div class="step past future" data-state="strut-slide-13" data-x="11578.026666666667" data-y="8862.72" data-scale="1" id="step-14" style="position: absolute; transform: translate(-50%, -50%) translate3d(11578.0266666667px, 8862.72px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
+			<div class="step future" data-state="strut-slide-13" data-x="5242.88" data-y="5376" data-scale="1" id="step-14" style="position: absolute; transform: translate(-50%, -50%) translate3d(5242.88px, 5376px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); transform-style: preserve-3d;">
 			<div class=" slideContainer strut-slide-13" style="width: 1024px; height: 768px;">
 			<div class="themedArea">
 			<h2 id="-repositorio-drupal-https-github-com-websop-drupal-7-38-"><a href="https://github.com/websop/drupal-7.38">Repositorio Drupal</a></h2>
@@ -597,15 +602,11 @@ transform: scale(0.87, 0.87)">
 
 		</div>
 
-	<div id="overview" class="step past future" data-state="strut-slide-overview" data-x="12957.013333333334" data-y="7979.52" data-scale="9" style="position: absolute; transform: translate(-50%, -50%) translate3d(12957.0133333333px, 7979.52px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;"></div>
+	<div id="overview" class="step future" data-state="strut-slide-overview" data-x="6055.253333333333" data-y="4654.08" data-scale="9" style="position: absolute; transform: translate(-50%, -50%) translate3d(6055.25333333333px, 4654.08px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;"></div>
 
- </div>
-</div>
-	<div class="hint">
-			<p>Usa la barra espaciadora o las flechas de los cursores para navegar</p>
-	</div>
+</div></div>
+<div class="hint">
+		<p>Usa la barra espaciadora o las flechas de los cursores para navegar</p>
 </div>
 </div>
-<div id="window-resizer-tooltip" style="display: none;"><a href="http://strut.io/editor/preview_export/impress.html#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1279</span> x <span class="tooltipHeight" id="winHeight">873</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1279</span> x <span class="tooltipHeight" id="vpHeight">757</span></div>
-</body>
-</html>
+</div><div id="window-resizer-tooltip"><a href="http://strut.io/editor/preview_export/impress.html#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div></body></html>
